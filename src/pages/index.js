@@ -1,21 +1,27 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { Fragment } from "react";
+import { Helmet } from 'react-helmet';
+import SEO from "../components/seo";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Categories from "../components/categories";
+
+const Logo = () => (
+  <Fragment>
+    <Helmet>
+      <link href="https://fonts.googleapis.com/css?family=Carter+One|Rock+Salt&display=swap" rel="stylesheet" />
+    </Helmet>
+    <div className="mb4">
+      <h1 className="tc white f-headline lh-solid mb1" style={{ fontFamily: 'Carter One' }}>El almud</h1>
+      <p className="tc white f4">Encuentra datos de pequeñas y medianas empresas para abastecer tu hogar.</p>
+    </div>
+  </Fragment>
+);
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <Fragment>
+    <SEO title="El almud" keywords={[]} />
+    <Logo />
+    <Categories />
+  </Fragment>
 )
 
-export default IndexPage
+export default IndexPage;

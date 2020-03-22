@@ -1,0 +1,29 @@
+@import './variables';
+
+.blue {
+  color: $base-blue;
+  &--bg {
+    background: $base-blue;
+  }
+}
+
+.yellow {
+  color: $base-yellow;
+  &--bg {
+    background: $base-yellow;
+  }
+}
+
+.orange {
+  color: $base-orange;
+  &--bg {
+    background: $base-orange;
+  }
+}
+
+.dark-blue {
+  color: $base-dark-blue;
+  &--bg {
+    background: $base-dark-blue;
+  }
+}

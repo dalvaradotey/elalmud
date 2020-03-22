@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Verduras 🥦",
+    "backgroundColor": "#388E3C",
+    "color": "white"
+  },
+  {
+    "id": 2,
+    "name": "Huevos 🥚",
+    "backgroundColor": "#E0E0E0",
+    "color": "#000000de"
+  },
+  {
+    "id": 3,
+    "name": "Carne 🍖",
+    "backgroundColor": "#BF360C",
+    "color": "white"
+  },
+  {
+    "id": 4,
+    "name": "Frutas 🍌",
+    "backgroundColor": "#FFC400",
+    "color": "#000000de"
+  }
+]

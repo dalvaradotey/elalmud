@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "categories":[1, 4],
+    "name": "Fruton Chile",
+    "website": "https://frutonchile.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "56985630091",
+    "facebook": "https://frutonchile.cl/",
+    "instagram": "https://frutonchile.cl/",
+    "email": "administracion@frutonchile.cl"
+  },
+  {
+    "id": 2,
+    "categories":[3],
+    "name": "Vasma",
+    "website": "https://www.vasma.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "",
+    "facebook": "",
+    "instagram": "",
+    "email": "administracion@frutonchile.cl"
+  },
+  {
+    "id": 3,
+    "categories":[2],
+    "name": "Huertos del chef",
+    "website": "https://frutonchile.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "",
+    "facebook": "",
+    "instagram": "",
+    "email": "administracion@frutonchile.cl"
+  },
+  {
+    "id": 4,
+    "categories":[1],
+    "name": "Huertas a deo",
+    "website": "https://frutonchile.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "",
+    "facebook": "",
+    "instagram": "",
+    "email": "administracion@frutonchile.cl"
+  },
+  {
+    "id": 5,
+    "categories":[4],
+    "name": "El negrito",
+    "website": "https://frutonchile.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "",
+    "facebook": "",
+    "instagram": "",
+    "email": "administracion@frutonchile.cl"
+  },
+  {
+    "id": 6,
+    "categories":[1],
+    "name": "MB green",
+    "website": "https://frutonchile.cl/",
+    "phone": "+56 2 3263 4480",
+    "whatsapp": "",
+    "facebook": "",
+    "instagram": "",
+    "email": "administracion@frutonchile.cl"
+  }
+]
