@@ -74,7 +74,7 @@ class CategoriesSelector extends Component {
         {(data) => (
           <div>
             <h3 className="f3 white tc mb4">¿Qué buscas?</h3>
-            <div className="mw5 mw7-ns center ph5-ns">
+            <div className="ph2 ph2-ns mw7-ns center ph5-ns">
               <div className="w-100">
                 <div className="" style={{ width: '100%' }}>
                   <Select
