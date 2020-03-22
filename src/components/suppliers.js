@@ -70,7 +70,7 @@ const SocialMedias = (props) => (
       </a>
     )}
     {(props.node.whatsapp !== null && props.node.whatsapp !== '') && (
-      <a href={props.node.whatsapp} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
+      <a href={`https://wa.me/${props.node.whatsapp}`} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
         <WhatsappIcon />
       </a>
     )}
