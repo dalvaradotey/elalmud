@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Abastece tu hogar con estos datos`,
@@ -44,5 +48,6 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
+    `gatsby-plugin-modal-routing`,
   ],
 }

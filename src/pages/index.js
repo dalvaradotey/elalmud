@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import { Helmet } from 'react-helmet';
-import SEO from "../components/seo";
 
+import SEO from '../components/seo';
 import Categories from "../components/categories";
+import Suscribe from "../components/suscribe";
 
 const Logo = () => (
   <Fragment>
@@ -22,6 +23,7 @@ const IndexPage = () => (
       <SEO title="El almud" keywords={[]} />
       <Logo />
       <Categories />
+      <Suscribe />
     </div>
   </Fragment>
 )
