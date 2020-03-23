@@ -61,7 +61,7 @@ class Modal extends Component {
                   <Form aria-labelledby="cyber-form-title" id="cyber-form" className="mt4 grid-cyber__form">
                     <div>
                       <Field
-                        className="w-50 mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
+                        className="w-100 w-50-ns mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
                         type="text"
                         name="name"
                         id="name"
@@ -71,7 +71,7 @@ class Modal extends Component {
                     </div>
                     <div>
                       <Field
-                        className="w-50 mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
+                        className="w-100 w-50-ns mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
                         type="text"
                         name="phone"
                         id="phone"
@@ -81,7 +81,8 @@ class Modal extends Component {
                     </div>
                     <div>
                       <Field
-                        className="w-50 mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
+                        component="textarea"
+                        className="w-100 w-50-ns mt1 br1 b--light-blue b--solid bw1 pa1 max-w"
                         type="textarea"
                         name="other"
                         id="other"
