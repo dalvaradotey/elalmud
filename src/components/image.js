@@ -23,7 +23,7 @@ const Image = props => (
     `}
     render={data => {
       const image = data.images.edges.find(n => {
-        return n.node.relativePath.includes(props.filename);
+        return n.node.relativePath.includes(props.filename !== '' ? props.filename : 'no-image.png');
       });
 
       if (!image) {

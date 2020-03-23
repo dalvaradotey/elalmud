@@ -35,6 +35,7 @@ const SuppliersContainer = (props) => {
               facebook
               whatsapp
               instagram
+              logo
             }
           }
         }
@@ -46,7 +47,7 @@ const SuppliersContainer = (props) => {
   );
 
   return (
-    <div className="ma4">
+    <div className="cards ma4">
       {suppliers.map((item, key) => <SupplierCard key={key} allCategories={props.categories} {...item} />)}
     </div>
   );
@@ -55,22 +56,22 @@ const SuppliersContainer = (props) => {
 const SocialMedias = (props) => (
   <div className="flex mv2">
     {(props.node.website !== null && props.node.website) && (
-      <a href={props.node.website} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
+      <a href={props.node.website} target="_blank" rel="noopener noreferrer" className="mh1 social-media">
         <WebsiteIcon />
       </a>
     )}
     {(props.node.facebook !== null && props.node.facebook !== '') && (
-      <a href={props.node.facebook} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
+      <a href={props.node.facebook} target="_blank" rel="noopener noreferrer" className="mh1 social-media" style={{ backgroundColor: '#385898' }}>
         <FacebookIcon />
       </a>
     )}
     {(props.node.instagram !== null && props.node.instagram !== '') && (
-      <a href={props.node.instagram} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
+      <a href={props.node.instagram} target="_blank" rel="noopener noreferrer" className="mh1 social-media" style={{ backgroundColor: '#d63787' }}>
         <InstagramIcon />
       </a>
     )}
     {(props.node.whatsapp !== null && props.node.whatsapp !== '') && (
-      <a href={`https://wa.me/${props.node.whatsapp}`} target="_blank" rel="noopener noreferrer" className="mh1" style={{ width: '25px' }}>
+      <a href={`https://wa.me/${props.node.whatsapp}`} target="_blank" rel="noopener noreferrer" className="mh1 social-media" style={{ backgroundColor: '#4bc959' }}>
         <WhatsappIcon />
       </a>
     )}
@@ -103,9 +104,11 @@ const Categories = (props) => (
   </div>
 );
 
+// w-20-l w-50-m w-100
+
 const SupplierCard = (props) => (
-  <div className="fl w-20-l w-50-m w-100 pa2 ma3-ns mh0 mb3 bg-white br3">
-    <Image filename="no-image.png" />
+  <div className="fl  pa2 ma3-ns mh0 mb3 bg-white br3">
+    <Image filename={props.node.logo} />
     <h2 className="b f4 mv2">{props.node.name}</h2>
     <Categories {...props} />
     <ul>

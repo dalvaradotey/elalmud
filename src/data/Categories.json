@@ -13,13 +13,37 @@
   },
   {
     "id": 3,
-    "name": "Carne 🍖",
+    "name": "Carne 🥩",
     "backgroundColor": "#BF360C",
     "color": "white"
   },
   {
     "id": 4,
     "name": "Frutas 🍌",
+    "backgroundColor": "#FFC400",
+    "color": "#000000de"
+  },
+  {
+    "id": 5,
+    "name": "Pollo 🍗",
+    "backgroundColor": "#FFC400",
+    "color": "#000000de"
+  },
+  {
+    "id": 6,
+    "name": "Pescado 🐟",
+    "backgroundColor": "#FFC400",
+    "color": "#000000de"
+  },
+  {
+    "id": 7,
+    "name": "Charcutería 🍖",
+    "backgroundColor": "#FFC400",
+    "color": "#000000de"
+  },
+  {
+    "id": 8,
+    "name": "Limpieza 🛒",
     "backgroundColor": "#FFC400",
     "color": "#000000de"
   }
