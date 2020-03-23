@@ -106,7 +106,7 @@ class Modal extends Component {
             ) : (
               <p className="f4 purple">
                 {this.state.isLoading ? (
-                  'Registrando tu email...'
+                  'Registrando proveedor...'
                 ) : (
                   '¡Gracias por registrarte!'
                 )}
