@@ -107,7 +107,7 @@ const Categories = (props) => (
 // w-20-l w-50-m w-100
 
 const SupplierCard = (props) => (
-  <div className="fl relative pa2 ma3-ns mh0 mb3 bg-white br3">
+  <div className="fl relative pa2 ma3-ns mh0 mb3 bg-white br3 shadow-4">
     <Image filename={props.node.logo} />
     <h2 className="b f4 mv2">{props.node.name}</h2>
     <Categories {...props} />
