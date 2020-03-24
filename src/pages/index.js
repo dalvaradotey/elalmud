@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import SEO from '../components/seo';
 import Categories from "../components/categories";
 import Suscribe from "../components/suscribe";
+// import Background from "../components/background";
 
 const Logo = () => (
   <Fragment>
@@ -19,7 +20,7 @@ const Logo = () => (
 
 const IndexPage = () => (
   <Fragment>
-    <div style={{ bakgroundImage: 'url("/images/feria")' }}>
+    <div className="">
       <SEO title="El almud" keywords={[]} />
       <Logo />
       <Categories />

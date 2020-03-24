@@ -54,7 +54,7 @@ const SuppliersContainer = (props) => {
 }
 
 const SocialMedias = (props) => (
-  <div className="flex mv2">
+  <div className="flex absolute bottom-0 mv2">
     {(props.node.website !== null && props.node.website) && (
       <a href={props.node.website} target="_blank" rel="noopener noreferrer" className="mh1 social-media">
         <WebsiteIcon />
@@ -107,11 +107,11 @@ const Categories = (props) => (
 // w-20-l w-50-m w-100
 
 const SupplierCard = (props) => (
-  <div className="fl  pa2 ma3-ns mh0 mb3 bg-white br3">
+  <div className="fl relative pa2 ma3-ns mh0 mb3 bg-white br3">
     <Image filename={props.node.logo} />
     <h2 className="b f4 mv2">{props.node.name}</h2>
     <Categories {...props} />
-    <ul>
+    <ul className="mb5">
       <li>{props.node.email}</li>
       <li>{props.node.phone}</li>
       <li>{props.node.website}</li>
